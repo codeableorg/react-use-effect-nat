@@ -16,10 +16,6 @@ import { PersistentForm } from "./components/PersistentForm";
  */
 
 function App() {
-  // const [dropper, setDropper] = useState(false);
-  // const [loader, setLoader] = useState(false);
-  // const [titler, setTitler] = useState(false);
-  // const [form, setForm] = useState(false);
 
   const [allComponents,setAllComponents] = React.useState("") ;
   function showComponent(e){
